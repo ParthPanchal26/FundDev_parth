@@ -1,0 +1,92 @@
+.investor-form {
+  width: 50%;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.investor-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #333;
+}
+
+.form-step {
+  margin-bottom: 20px;
+}
+
+.form-step label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.form-step input,
+.form-step textarea,
+.form-step select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.form-step input:focus,
+.form-step textarea:focus,
+.form-step select:focus {
+  border-color: #28a745;
+  background-color: #fff;
+  outline: none;
+}
+
+.form-step textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.form-buttons {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.form-buttons button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+  width: 50%;
+}
+
+.form-buttons button:hover {
+  background-color: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .investor-form {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .investor-form h2 {
+    font-size: 24px;
+  }
+
+  .form-buttons button {
+    width: 100%;
+  }
+}
