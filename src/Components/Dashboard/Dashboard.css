@@ -1,0 +1,142 @@
+.bodyContainer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
+
+.authSection {
+    /* border: 2px solid green; */
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.authLinks {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    margin-inline: 1rem;
+}
+
+.linkbtn {
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 0.6rem;
+    padding: 10px 40px;
+    background-color: #45F0B4;
+    border: 0;
+    margin-inline: 1rem;
+    margin: 1rem;
+    width: 170px;
+    filter: drop-shadow(4px 4px 4px #bebebe);
+    transition: 0.3s;
+}
+
+.linkbtn:hover {
+    filter: drop-shadow(4px 4px 4px #a1a1a1);
+}   
+
+.infoCards {
+    margin: 1rem;
+}
+
+.infoCardSection {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.featuredBoxes {
+    background-color: #79CAF0;
+    width: 222px;
+    height: 150px;
+    margin: 1rem;
+    padding: 60px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 28px;
+    filter: drop-shadow(4px 4px 4px #bebebe);
+    transition: 0.3s;
+}
+
+.featuredBoxes:hover {
+    filter: drop-shadow(4px 4px 4px #a1a1a1);
+}
+
+.topDevs {
+    /* border: 2px solid cyan; */
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.headingBox {
+    margin: 1rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.devBoxes {
+    width: 222px;
+    margin: 1rem; 
+    width: 300px;  
+    /* border: 2px solid green; */
+    border-radius: 28px;
+    background-color: #f1f1f1;
+    filter: drop-shadow(4px 4px 4px #a1a1a1);
+    transition: 0.3s;
+}
+
+.devBoxes:hover {
+    filter: drop-shadow(-4px -4px 4px #a1a1a1);
+}
+
+.devList {
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.fields {
+    list-style: none;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    /* border: 2px solid coral; */
+}
+
+.picBox {
+    text-align: center;
+    /* text-align: center; */
+}
+
+.pic {
+    height: 120px;
+    width: 120px;
+    border: 2px solid rgb(215, 215, 215);
+    border-radius: 50%;
+}
+
+.topInvestors {
+    border: 2px solid magenta;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.topOrg {
+    border: 2px solid coral;
+    padding: 1rem;
+    margin: 1rem;
+}

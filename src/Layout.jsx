@@ -13,6 +13,7 @@ import Dev_Profile from './Components/Dev_Profile/Dev_Profile'
 import Idea_form from './Components/Idea_Form/Idea_form'
 import HelpAndSupport from './Components/HELP_AND_SUPPORT/HelpAndSupport';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Dashboard from './Components/Dashboard/Dashboard';
 
 const Layout = () => {
   return (
@@ -30,6 +31,7 @@ const Layout = () => {
        <Route path="/Dev_Profile" element={<Dev_Profile />} />
        <Route path="/Idea_form" element={<Idea_form />} />
        <Route path="/helpandsupport" element={<HelpAndSupport />} />
+       <Route path="/Dashboard" element={<Dashboard />} />
       </Routes>
     </BrowserRouter>
 
